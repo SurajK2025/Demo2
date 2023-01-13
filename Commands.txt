@@ -1,0 +1,5 @@
+npm init
+npm install mysql, express, body-parser, cors
+
+npx create-react-app frontend
+npm install axios
