@@ -3,3 +3,5 @@ npm install mysql, express, body-parser, cors
 
 npx create-react-app frontend
 npm install axios
+
+ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'root'
