@@ -11,7 +11,6 @@ exports.getAllUsers = (req, res) => {
 }
 
 exports.deleteUser = (req, res) => { 
-  console.log("Deleted");
   connection.query(`delete from students where rollno = ${req.params.id}`, (err, rows, fields) => {
   });
 }
