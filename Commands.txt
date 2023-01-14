@@ -6,6 +6,8 @@ npm install axios
 
 ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'root'
 
+git config --global user.name/user.email “Your Name”
+
 return ( 
 <BrowserRouter> 
 <div className="App"> 
